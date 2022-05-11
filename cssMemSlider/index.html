@@ -1,12 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS MEM Slider</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="contaiter">
+        <div class="wrapper">
+          <div class="slide">
+            <label for="slide-1">
+              <div class="img__container">
+                <img
+                  src="./img/slide_01.jpg"
+                  alt="Slide-01"
+                  class="slide__img"
+                />
+              </div>
+            </label>
+            <label for="slide-2">
+              <div class="img__container">
+                <img
+                  src="./img/slide_02.jpg"
+                  alt="Slide-02"
+                  class="slide__img"
+                />
+              </div>
+            </label>
+            <label for="slide-3">
+              <div class="img__container">
+                <img
+                  src="./img/slide_03.jpg"
+                  alt="Slide-03"
+                  class="slide__img"
+                />
+              </div>
+            </label>
+            <label for="slide-4">
+              <div class="img__container">
+                <img
+                  src="./img/slide_04.jpg"
+                  alt="Slide-04"
+                  class="slide__img"
+                />
+              </div>
+            </label>
+          </div>
+          <div class="dots">
+            <label for="slide-1">
+              <div class="dot">
+                <input id="slide-1" type="radio" name="slides" checked />
+              </div>
+            </label>
+            <label for="slide-2"
+              ><div class="dot">
+                <input id="slide-2" type="radio" name="slides" /></div
+            ></label>
+            <label for="slide-3"
+              ><div class="dot">
+                <input id="slide-3" type="radio" name="slides" /></div
+            ></label>
+            <label for="slide-4"
+              ><div class="dot">
+                <input id="slide-4" type="radio" name="slides" /></div
+            ></label>
+          </div>
+          <div class="slide__text--container">
+            <label for="slide-1">
+              <p class="slide__text--text">Лукашенко знает всё</p>
+            </label>
+            <label for="slide-2">
+              <p class="slide__text--text">Действия при пожаре</p>
+            </label>
+            <label for="slide-3">
+              <p class="slide__text--text">Пилат</p>
+            </label>
+            <label for="slide-4">
+              <p class="slide__text--text">Начальство фрилансера</p>
+            </label>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
