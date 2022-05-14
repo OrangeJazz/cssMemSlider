@@ -48,7 +48,6 @@ body {
 .slider {
   position: relative;
   max-width: 128rem;
-
   margin: 0 auto;
   overflow: hidden;
   display: grid;
