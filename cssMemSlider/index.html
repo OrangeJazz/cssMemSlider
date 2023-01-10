@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS MEM Slider</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/queries.css" />
+  </head>
+  <body>
+    <main>
+      <div class="wrapper">
+        <div class="slider">
+          <input id="slide-1" type="radio" name="slides" checked />
+          <input id="slide-2" type="radio" name="slides" />
+          <input id="slide-3" type="radio" name="slides" />
+          <input id="slide-4" type="radio" name="slides" />
+          <div class="slide">
+            <div class="slide__container" id="s1-img">
+              <img src="./img/slide_01.jpg" alt="slide-1" class="slide__img" />
+            </div>
+            <div class="slide__container" id="s2-img">
+              <img src="./img/slide_02.jpg" alt="slide-2" class="slide__img" />
+            </div>
+            <div class="slide__container" id="s3-img">
+              <img src="./img/slide_03.jpg" alt="slide-3" class="slide__img" />
+            </div>
+            <div class="slide__container" id="s4-img">
+              <img src="./img/slide_04.jpg" alt="slide-4" class="slide__img" />
+            </div>
+          </div>
+          <div class="slide__text">
+            <div class="slide__text--item" id="s1-text">
+              <p>Батька знает всё</p>
+            </div>
+            <div class="slide__text--item" id="s2-text">
+              <p>Действия при пожаре</p>
+            </div>
+            <div class="slide__text--item" id="s3-text">
+              <p>Пилат</p>
+            </div>
+            <div class="slide__text--item" id="s4-text">
+              <p>Начальство фрилансера</p>
+            </div>
+          </div>
+          <div class="slider__nav">
+            <label for="slide-1" class="slider__nav--item"
+              ><div class="slider__nav--dot" id="s1-dot"></div
+            ></label>
+            <label for="slide-2" class="slider__nav--item"
+              ><div class="slider__nav--dot" id="s2-dot"></div
+            ></label>
+            <label for="slide-3" class="slider__nav--item"
+              ><div class="slider__nav--dot" id="s3-dot"></div
+            ></label>
+            <label for="slide-4" class="slider__nav--item"
+              ><div class="slider__nav--dot" id="s4-dot"></div
+            ></label>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
